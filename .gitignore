@@ -1,0 +1,4 @@
+*.0
+*.pyc
+*.json
+Procfile

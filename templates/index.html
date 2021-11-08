@@ -1,0 +1,44 @@
+    {% extends 'base.html' %}
+    {% block content %}
+    <div>
+        <div class="container h-100">
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-sm-12 col-xs-12 pt-5">
+                    <form method='POST' class="card border-0 p-3 shadow-lg">
+                        <div class="text-muted form-group">
+                            Search for weather in a city:
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <input type="text" placeholder="City name" name="city" class="form-control">
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <input type="text" placeholder="Country code or country name" name="country" class="form-control">
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <button class="btn btn-primary btn-block">Search</button>
+                        </div>
+                    </form>
+                    <br />
+                    <div align="center">
+                        <p>
+                            <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInfo" aria-expanded="false" aria-controls="collapseInfo">
+                                ?
+                            </button>
+                        </p>
+                        <div style="min-height: 120px;">
+                            <div class="collapse collapse-horizontal" id="collapseInfo">
+                                <div class="card card-body" style="width: 300px;">
+                                    To search for weather infos of a city just fill in the city's name first and in second put the city's country or country-code.
+                                    <p>Example: (São Paulo, BR) or (São Paulo, Brazil)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endblock content %}

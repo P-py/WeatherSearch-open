@@ -2,6 +2,8 @@
 > A web-app based on python, flask, Bootstrap-CSS and HTML5.
 The app uses the OpenWeatherMap API to collect weather rellated infos of a specific location defined by the users input, and displays it for the user. Finally, making it easier to know more about the weather!
 
+##### DISCONTINUED - This repository will not receive new updates.
+
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
